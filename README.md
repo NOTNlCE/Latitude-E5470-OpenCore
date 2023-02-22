@@ -35,3 +35,7 @@ Additionally, my system uses an i5-6300HQ and utilizes CPUFriend to tweak freque
 I have reverted this WiFi card back to the stock Intel card and the associated Intel Airport kext has been added. If you are using a Broadcom card, please use AirPortBrcmFixup and the associated Bluetooth kexts for functionality. If you are using an OS other than macOS Monterey, please replace the copy of the Airport kext with the OS version you are using.
 
 The latest commit of VoodooPS2 has support for Alps trackpads, but in my testing, this did not function. We are currently one revision behind main to support our trackpad using the "Trackpad as Mouse" SSDT. Hopefully improvements will come soon.
+
+# Issues
+
+As reported, the HDMI port is causing issues in macOS Monterey + newer. Progress can be viewed in the open issue #2.
